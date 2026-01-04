@@ -16,7 +16,6 @@ function EmpPage() {
 
   return (
     <div>
-      EmpPage
       <EpmForm
         onSubmit={edit ? handleUpdata : handleCreate}
         initialData={edit}
